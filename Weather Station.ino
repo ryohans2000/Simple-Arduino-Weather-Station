@@ -17,8 +17,8 @@ const char* server = "api.thingspeak.com";
 
 /*------------------------------------- SSID and Password of your WiFi router --*/
 
-const char* ssid = "PNG_EK_HO";
-const char* password = "01a02b03c04d";
+const char* ssid = "enter here";
+const char* password = "hello123";
 
 /*--------------------------------------------------- Setup --*/
 
@@ -161,7 +161,7 @@ client.println("<html>");
 client.println("<head>");
 client.print("<title>");
 
-client.print("LPAN Final Assignment");
+client.print("LPAN Assignment");
 
 client.print("</title>");
 client.println("</head>");
@@ -169,7 +169,7 @@ client.println("</head>");
 client.println("<body>");
 client.println("<center>");
 client.println("<font style='font-family:arial'>");
-client.print("<h3><b>LPAN Final Assignment by Ryohans TP054197</b></h3>");
+client.print("<h3><b>LPAN Assignment by Ryohans TP054197</b></h3>");
 client.println("</font>");
 
 client.println("<font style='font-family:arial'>");
